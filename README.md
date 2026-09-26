@@ -1,4 +1,4 @@
- # AI-Driven Hotel Booking System
+ # CEYLORA AI-Driven Hotel Booking System
 
 An AI-powered hotel booking application that helps users discover, compare, and reserve hotel rooms through a simple booking experience.
 
@@ -13,10 +13,9 @@ An AI-powered hotel booking application that helps users discover, compare, and 
 ## Getting Started
 
 ### Prerequisites
-
 - Git
-- Node.js and npm (if this project uses a JavaScript frontend or backend)
-- Any project-specific database or API credentials
+- Node.js and npm 
+
 
 ### Installation
 
@@ -41,12 +40,3 @@ Open the application in a browser, enter your travel details, browse available h
 
 Keep secrets such as API keys, database credentials, and authentication settings in environment variables. Do not commit `.env` files or other sensitive information to the repository.
 
-## Contributing
-
-1. Create a feature branch.
-2. Make and test your changes.
-3. Open a pull request describing the changes.
-
-## License
-
-Add the project’s license information here.
