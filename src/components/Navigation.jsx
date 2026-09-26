@@ -9,7 +9,7 @@ function Navigation() {
     <nav className="relative z-50 mx-3 my-3 flex w-[calc(100%-1.5rem)] items-center justify-between rounded-full bg-[#171717]/95 px-4 py-2.5 text-white shadow-sm backdrop-blur-md sm:px-5">
       <div className="flex items-center gap-4 md:gap-6">
         <a href="/" className="text-[1.65rem] font-bold leading-none tracking-[-0.07em]">
-          Horizone
+          CEYLORA
         </a>
         <div className="hidden items-center md:flex">
           <a href="/" className="text-sm font-medium transition-colors hover:text-slate-300">
