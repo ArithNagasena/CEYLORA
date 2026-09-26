@@ -52,4 +52,6 @@ function Button({
   )
 }
 
+// The variant helper is part of the shadcn component API.
+// eslint-disable-next-line react-refresh/only-export-components
 export { Button, buttonVariants }

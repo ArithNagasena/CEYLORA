@@ -67,7 +67,7 @@ export default function Hero() {
   //   );
 
   const handleSearch = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // prevents browser auto reloads
     console.log("Hey");
   };
 
@@ -88,11 +88,11 @@ export default function Hero() {
       ))}
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 font-mono text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
           Find Your Best Staycation
         </h1>
-        <p className="text-base md:text-lg mb-8 text-center max-w-2xl">
+        <p className="mb-8 max-w-2xl text-center text-base md:text-lg">
           Describe your dream destination and experience, and we'll find the
           perfect place for you.
         </p>
@@ -139,3 +139,4 @@ export default function Hero() {
     </div>
   );
 }
+
