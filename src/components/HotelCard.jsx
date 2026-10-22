@@ -2,21 +2,13 @@ import { MapPin, Star } from "lucide-react";
 import { useState } from "react";
 
 function HotelCard(props) {
-  // let num = 1;
-  //   const handleClick = () => {
-  //     console.log("I was clicked")
-  //     console.log("Inside handleclick", num)
-  //     num = num + 1;
-  //   }
-  //   console.log("Outside handleclick", num)
-//   const [num, setNum] = useState(0);
 
-//   const handleClick = () => {
-//     setNum(5);
-//     console.log(num);
-//     console.log("Hey");
-//   };
+  const [num, setNum] = useState(0);
 
+  const handleclicked = () => {
+    setNum(num + 1)
+    console.log(num)
+  };
   const formattedPrice = Number(props.hotel.price).toLocaleString("en-US");
 
   return (
@@ -47,12 +39,17 @@ function HotelCard(props) {
           <span className="text-xl font-bold">LKR {formattedPrice}  / night</span>
         </div>
       </div>
-      {/* <div className="mt-2">
-        <p className="text-red-500 text-3xl">{num}</p>
-        <Button type="button" className={"w-full"} onClick={handleClick}>
-          Click Me
-        </Button>
-      </div> */}
+
+      <div className="mt-2">
+        <button
+          type="button"
+          className="bg-black text-white px-4 py-2 rounded-md w-full mt-2"
+          onClick={handleclicked}
+        >
+          Check Availability
+        </button>
+      </div>
+
     </div>
   );
 }

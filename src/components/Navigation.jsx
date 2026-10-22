@@ -16,6 +16,9 @@ function Navigation() {
             Home
           </a>
         </div>
+        <a href="https://www.youtube.com/@ceylora" className="text-sm font-medium transition-colors hover:text-slate-300" target='_blank'>
+          About Us
+        </a>
       </div>
 
       <div className="flex items-center gap-2 md:gap-3">

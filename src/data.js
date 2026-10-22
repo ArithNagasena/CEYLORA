@@ -6,7 +6,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1566073771259-6a8506099945",
         location: "Colombo",
         rating: 4.7,
-        reviews: ["K", "L"],
+        reviews: ["Kavindra Perera", "Lakmini Fernando"],
         price: 65000,
     },
     {
@@ -16,7 +16,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
         location: "Colombo",
         rating: 4.8,
-        reviews: ["A", "M"],
+        reviews: ["Amaya Senanayake", "Mahesh Rajapaksa"],
         price: 55000,
     },
     {
@@ -26,7 +26,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1564501049412-61c2a3083791",
         location: "Colombo",
         rating: 4.6,
-        reviews: ["S", "R"],
+        reviews: ["Sithumi Dissanayake", "Ravindu Wijesinghe"],
         price: 48000,
     },
     {
@@ -36,7 +36,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
         location: "Colombo",
         rating: 4.5,
-        reviews: ["D", "N"],
+        reviews: ["Dinusha Jayawardena", "Nethmi Gunasekara"],
         price: 50000,
     },
     {
@@ -46,7 +46,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1571896349842-33c89424de2d",
         location: "Negombo",
         rating: 4.6,
-        reviews: ["P", "T"],
+        reviews: ["Pasan Herath", "Tharushi Bandara"],
         price: 42000,
     },
     {
@@ -56,7 +56,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1582610116397-edb318620f90",
         location: "Dambulla",
         rating: 4.7,
-        reviews: ["J", "A"],
+        reviews: ["Janith Madushanka", "Anusha Liyanage"],
         price: 60000,
     },
     {
@@ -66,7 +66,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1584132967334-10e028bd69f7",
         location: "Bentota",
         rating: 4.6,
-        reviews: ["N", "K"],
+        reviews: ["Nadeesha Kumari", "Kasun Weerasinghe"],
         price: 45000,
     },
     {
@@ -76,7 +76,7 @@ const hotels = [
             "https://images.unsplash.com/photo-1540541338287-41700207dee6",
         location: "Hambantota",
         rating: 4.7,
-        reviews: ["R", "S"],
+        reviews: ["Arith Nagasena", "Sulochana Peris"],
         price: 58000,
     },
 ];
